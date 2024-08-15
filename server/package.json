@@ -1,6 +1,7 @@
 {
   "name": "google-docs",
   "version": "1.0.0",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "dev": "ts-node-dev --clear ./src/server.ts",
@@ -15,6 +16,7 @@
     "cors": "^2.8.5",
     "dotenv": "^16.4.5",
     "express": "^4.19.2",
+    "mongoose": "^8.5.3",
     "socket.io": "^4.7.5"
   },
   "devDependencies": {
